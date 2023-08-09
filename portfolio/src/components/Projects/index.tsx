@@ -5,13 +5,10 @@ const Projects = () => {
   return (
     <div id="projects" className="max-w-[1040px] m-auto md:pl-20 p-4 py-14">
       <h1 className="text-4xl font-bold text-center text-[#001b5e]">
-        Projects
+        Projetos
       </h1>
       <p className="text-center py-8">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore,
-        veritatis distinctio aut tempora quisquam necessitatibus veniam dolorem
-        nulla placeat aspernatur voluptatibus explicabo expedita temporibus
-        totam laudantium, doloremque asperiores libero dolorum.
+        Projetos feitos no decorrer da minha formação na UFPR
       </p>
       <div className="grid sm:grid-cols-2 gap-12">
         <ProjectItems img={screenshot} title={"Pokedex App"} tools="React+TS"/>

@@ -25,7 +25,7 @@ const data = [
 const History = () => {
   return (
     <div id="work" className="max-w-[1040px] m-auto md:pl-20 p-4 py-14">
-      <h1 className="text-4xl font-bold text-center text-[#001b5e] mb-14">Work</h1>
+      <h1 className="text-4xl font-bold text-center text-[#001b5e] mb-14">Experiências</h1>
       {data.map((item, id) => (
         <HistoryFields
           key={id}
