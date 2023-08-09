@@ -1,5 +1,6 @@
 import ProjectItems from "./ProjectItems";
 import screenshot from "../../assets/screenshot.png";
+import { FaHtml5, FaCss3, FaReact } from "react-icons/fa";
 
 const Projects = () => {
   return (
@@ -11,10 +12,28 @@ const Projects = () => {
         Projetos feitos no decorrer da minha formação na UFPR
       </p>
       <div className="grid sm:grid-cols-2 gap-12">
-        <ProjectItems img={screenshot} title={"Pokedex App"} tools="React+TS"/>
-        <ProjectItems img={screenshot} title={"Store App"}  tools="HTML+CSS+JS"/>
-        <ProjectItems img={screenshot} title={"Jokenpo Game"} tools="HTML+CSS+JS"/>
-        <ProjectItems img={screenshot} title={"Portfolio App"} tools="React+TS"/>
+        <ProjectItems
+          img={screenshot}
+          title={"Pokedex App"}
+          tools={<FaReact color="#5ED3F3" size={20} />}
+        />
+        <ProjectItems
+          img={screenshot}
+          title={"Store App"}
+          tools={<FaHtml5 color="#E96228" size={20} />}
+          tools2={<FaCss3 color="#02A9BD" size={20} />}
+        />
+        <ProjectItems
+          img={screenshot}
+          title={"Jokenpo Game"}
+          tools={<FaHtml5 color="#E96228" size={20} />}
+          tools2={<FaCss3 color="#02A9BD" size={20} />}
+        />
+        <ProjectItems
+          img={screenshot}
+          title={"Portfolio App"}
+          tools={<FaReact color="#5ED3F3" size={20} />}
+        />
       </div>
     </div>
   );
