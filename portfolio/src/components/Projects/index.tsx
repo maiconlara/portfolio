@@ -1,5 +1,8 @@
 import ProjectItems from "./ProjectItems";
 import screenshot from "../../assets/screenshot.png";
+import pokedex from "../../assets/pokedex.png";
+import feedget from "../../assets/feedget.png";
+import portfolio from "../../assets/portfolio.png";
 import { FaHtml5, FaCss3, FaReact } from "react-icons/fa";
 
 const Projects = () => {
@@ -13,15 +16,14 @@ const Projects = () => {
       </p>
       <div className="grid sm:grid-cols-2 gap-12">
         <ProjectItems
-          img={screenshot}
+          img={pokedex}
           title={"Pokedex App"}
           tools={<FaReact color="#5ED3F3" size={20} />}
         />
         <ProjectItems
-          img={screenshot}
-          title={"Store App"}
-          tools={<FaHtml5 color="#E96228" size={20} />}
-          tools2={<FaCss3 color="#02A9BD" size={20} />}
+          img={feedget}
+          title={"Feedget App"}
+          tools={<FaReact color="#5ED3F3" size={20} />}
         />
         <ProjectItems
           img={screenshot}
@@ -30,7 +32,7 @@ const Projects = () => {
           tools2={<FaCss3 color="#02A9BD" size={20} />}
         />
         <ProjectItems
-          img={screenshot}
+          img={portfolio}
           title={"Portfolio App"}
           tools={<FaReact color="#5ED3F3" size={20} />}
         />
