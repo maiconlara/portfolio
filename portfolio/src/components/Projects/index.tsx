@@ -3,7 +3,7 @@ import screenshot from "../../assets/screenshot.png";
 import pokedex from "../../assets/pokedex.png";
 import feedget from "../../assets/feedget.png";
 import portfolio from "../../assets/portfolio.png";
-import { FaHtml5, FaCss3, FaReact } from "react-icons/fa";
+import { FaHtml5, FaCss3, FaReact, FaPhp } from "react-icons/fa";
 
 const Projects = () => {
   return (
@@ -27,9 +27,10 @@ const Projects = () => {
         />
         <ProjectItems
           img={screenshot}
-          title={"Jokenpo Game"}
+          title={"Store App"}
           tools={<FaHtml5 color="#E96228" size={20} />}
           tools2={<FaCss3 color="#02A9BD" size={20} />}
+          tools3={<FaPhp color="#02A9BD" size={20} />}
         />
         <ProjectItems
           img={portfolio}
