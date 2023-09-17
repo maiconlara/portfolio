@@ -1,10 +1,8 @@
 import ProjectItems from "./ProjectItems";
-import screenshot from "../../assets/screenshot.png";
 import pokedex from "../../assets/pokedex.png";
 import feedget from "../../assets/feedget.png";
-import portfolio from "../../assets/portfolio.png";
-import { FaHtml5, FaCss3, FaReact, FaPhp } from "react-icons/fa";
-
+import yugioh from "../../assets/yugioh.png";
+import spacetime from "../../assets/spacetime.png";
 const Projects = () => {
   return (
     <div id="projects" className="max-w-[1040px] m-auto md:pl-20 p-4 py-14">
@@ -16,26 +14,37 @@ const Projects = () => {
       </p>
       <div className="grid sm:grid-cols-2 gap-12">
         <ProjectItems
+          link="https://pokemondex-maiconlara.vercel.app/"
           img={pokedex}
-          title={"Pokedex App"}
-          tools={<FaReact color="#5ED3F3" size={20} />}
+          title={"Pokedex"}
+          tools="https://raw.githubusercontent.com/devicons/devicon/55609aa5bd817ff167afce0d965585c92040787a/icons/react/react-original.svg"
+          tools2="https://raw.githubusercontent.com/devicons/devicon/55609aa5bd817ff167afce0d965585c92040787a/icons/typescript/typescript-original.svg"
         />
         <ProjectItems
+          link="https://feedget-maiconlara.vercel.app/"
           img={feedget}
           title={"Feedget App"}
-          tools={<FaReact color="#5ED3F3" size={20} />}
+          tools="https://raw.githubusercontent.com/devicons/devicon/55609aa5bd817ff167afce0d965585c92040787a/icons/react/react-original.svg"
+          tools2="https://raw.githubusercontent.com/devicons/devicon/55609aa5bd817ff167afce0d965585c92040787a/icons/typescript/typescript-original.svg"
+          tools3="https://raw.githubusercontent.com/devicons/devicon/55609aa5bd817ff167afce0d965585c92040787a/icons/tailwindcss/tailwindcss-plain.svg"
         />
         <ProjectItems
-          img={screenshot}
-          title={"Store App"}
-          tools={<FaHtml5 color="#E96228" size={20} />}
-          tools2={<FaCss3 color="#02A9BD" size={20} />}
-          tools3={<FaPhp color="#02A9BD" size={20} />}
+          link="http://yugioh-password.vercel.app/"
+          img={yugioh}
+          title={"Yu-Gi-Oh! Password"}
+          tools="https://raw.githubusercontent.com/devicons/devicon/55609aa5bd817ff167afce0d965585c92040787a/icons/react/react-original.svg"
+          tools3="https://raw.githubusercontent.com/devicons/devicon/55609aa5bd817ff167afce0d965585c92040787a/icons/nextjs/nextjs-line.svg"
+          tools2="https://raw.githubusercontent.com/devicons/devicon/55609aa5bd817ff167afce0d965585c92040787a/icons/typescript/typescript-original.svg"
+          tools4="https://raw.githubusercontent.com/devicons/devicon/55609aa5bd817ff167afce0d965585c92040787a/icons/tailwindcss/tailwindcss-plain.svg"
         />
         <ProjectItems
-          img={portfolio}
-          title={"Portfolio App"}
-          tools={<FaReact color="#5ED3F3" size={20} />}
+          link="https://spacetime-maiconlara.vercel.app/"
+          img={spacetime}
+          title={"Spacetime"}
+          tools="https://raw.githubusercontent.com/devicons/devicon/55609aa5bd817ff167afce0d965585c92040787a/icons/react/react-original.svg"
+          tools3="https://raw.githubusercontent.com/devicons/devicon/55609aa5bd817ff167afce0d965585c92040787a/icons/nextjs/nextjs-line.svg"
+          tools2="https://raw.githubusercontent.com/devicons/devicon/55609aa5bd817ff167afce0d965585c92040787a/icons/typescript/typescript-original.svg"
+          tools4="https://raw.githubusercontent.com/devicons/devicon/55609aa5bd817ff167afce0d965585c92040787a/icons/tailwindcss/tailwindcss-plain.svg"
         />
       </div>
     </div>

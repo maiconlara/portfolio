@@ -6,7 +6,6 @@ import {
   AiOutlineMail,
 } from "react-icons/ai";
 import { GrProjects } from "react-icons/gr";
-import { BsPerson } from "react-icons/bs";
 
 const Sidenav = () => {
   const [nav, setNav] = useState(false);
@@ -48,14 +47,6 @@ const Sidenav = () => {
           </a>
           <a
             onClick={handleNavState}
-            href="#main"
-            className="w-[70vw] h-[6vh] lg:w-[40vw] xl:w-[30vw] 2xl:w-[20vw] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 p4 cursor-pointer hover:scale-110 ease-in duration-200"
-          >
-            <BsPerson size={20} />
-            <span className="pl-4">Sobre Mim</span>
-          </a>
-          <a
-            onClick={handleNavState}
             href="#contact"
             className="w-[70vw] h-[6vh] lg:w-[40vw] xl:w-[30vw] 2xl:w-[20vw] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 p4 cursor-pointer hover:scale-110 ease-in duration-200"
           >
@@ -87,12 +78,7 @@ const Sidenav = () => {
           >
             <AiOutlineProject size={20} />
           </a>
-          <a
-            href="#main"
-            className="rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300"
-          >
-            <BsPerson size={20} />
-          </a>
+
           <a
             href="#contact"
             className="rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300"
