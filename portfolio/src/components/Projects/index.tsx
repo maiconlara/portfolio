@@ -10,7 +10,7 @@ const Projects = () => {
         Projetos
       </h1>
       <p className="text-center py-8">
-        Projetos feitos no decorrer da minha formação na UFPR
+        Projetos realizados no decorrer da minha formação como desenvolvedor
       </p>
       <div className="grid sm:grid-cols-2 gap-12">
         <ProjectItems
