@@ -4,7 +4,12 @@ const Contact = () => {
       <h1 className="py-4 text-4xl font-bold text-center text-[#001b5e]">
         Contato
       </h1>
-      <form
+      <div className="items-center justify-center">
+      <h3 className="py-4 text-2xl font-bold text-center text-[#001b5e]">
+        e-mail: maiconlaracontato@gmail.com
+      </h3>
+      </div>
+      {/* <form
         action="https://getform.io/f/39fc8d0b-5770-47e1-a863-1ab7962dc8c2"
         method="POST"
         encType="multipart/form-data"
@@ -55,7 +60,7 @@ const Contact = () => {
         <button className="bg-[#001b5e] text-gray-100 mt-4 max-w-[10vw] w-full min-w-[80px] p-2 rounded-lg hover:bg-[#143485]">
           Enviar
         </button>
-      </form>
+      </form> */}
     </div>
   );
 };
